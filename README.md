@@ -18,38 +18,38 @@
 
 ## Introduction
 
-GlobalQuake is an experimental Java application that can be used to monitor earthquakes world-wide in near real time.
+GlobalQuake is an experimental Java application that can be used to monitor earthquakes worldwide in near real-time.
 
-It enables selection of seismic stations downloaded from publicly available seismic networks via `fdsnws services` supllied by real time data from publicly available `seedlink servers`.\
+It enables the selection of seismic stations downloaded from publicly available seismic networks via `fdsnws services` supplied by real-time data from publicly available `seedlink servers`.\
 The program uses this data to detect earthquakes and visualize them on an interactive 3D globe.\
-It can also, estimate the earthquake magnitude using various numerical estimation methods, ~~but at the moment it can only work for small and medium size earthquakes, up to magnitude 5 or 6.~~
-that are capable of estimating the magnitude reasonably accurately for nearly any earthquake size (most accurate up to M8 though)
+It can also, estimate the earthquake magnitude using various numerical estimation methods, ~~but at the moment it can only work for small and medium-sized earthquakes, up to magnitude 5 or 6.~~
+that is capable of estimating the magnitude reasonably accurately for nearly any earthquake size (most accurate up to M8 though)
 
 > [!IMPORTANT]<br>
-> Please keep in mind that GlobalQuake is still very experimental and should only be used for entertainment purposes, as the displayed information can be inaccurate or completly wrong.\
+> Please keep in mind that GlobalQuake is still very experimental and should only be used for entertainment purposes, as the displayed information can be inaccurate or completely wrong.\
 > \
-> Please be also aware that playing some of the included alarm sounds in public areas can be considered in some countries a form of fearmongering and illegal.
+> Please also be aware that playing some of the included alarm sounds in public areas can be considered illegal in some countries as a form of fearmongering.
 
 > [!NOTE]<br>
-> GlobalQuake doesn't own any form of data, and the respective owners can stop sharing them via Seedlink Server and/or FDSNWS at any moment without notice.
+> GlobalQuake doesn't own any form of data, and the respective owners can stop sharing them via Seedlink Server and/or FDSNWS without notice at any moment.
 
 ### What GlobalQuake is good at?
 
 * It can easily select publicly available seismic stations.
-* It can visualise detected earthquakes on a 3D global interactive map.
-* It can quickly estimate small and moderate earthquake's magnitude, location and depth.
+* It can visualize detected earthquakes on a 3D global interactive map.
+* It can quickly estimate small and moderate earthquake's magnitude, location, and depth.
 
 ### What GlobalQuake is struggling with?
 
 * Larger earthquakes (M6+) often trigger false detections or show duplicated earthquakes.
-* Unable to detect multiple earthquakes in the same epicenter in short period of time.
-* Calculation of distant earthquakes from a certain set of station is always less accurate than a local earthquake.
+* Unable to detect multiple earthquakes in the same epicenter in a short period.
+* Calculation of distant earthquakes from a certain set of stations is always less accurate than a local earthquake.
 
 ## System Requirements
 
-- The system requirements will scale by the number of stations you select. This includes RAM, CPU and network usage.
-- You can run GlobalQuake on slower system only to monitor earthquakes in your local area, or if your system can handle it, select hundreds or even thousands of stations around the world.
-- Roughly speaking, ~~4GB of RAM~~, 6 CPU cores and 5Mbit network connection should be enough to handle about 1000 stations.
+- The system requirements will scale by the number of stations you select. This includes RAM, CPU, and network usage.
+- You can run GlobalQuake on a slower system only to monitor earthquakes in your local area, or if your system can handle it, select hundreds or even thousands of stations around the world.
+- Roughly speaking, ~~4GB of RAM~~, 6 CPU cores, and 5Mbit network connection should be enough to handle about 1000 stations.
 - Update: beginning from version 0.11.0, only around 2GB of RAM is required for running 5000 stations.
 - If GlobalQuake starts lagging heavily or even crashes after a few minutes, it is probably due to insufficient RAM in your system, and you need to select fewer stations.
 
@@ -59,11 +59,11 @@ A guide for installing the application and the software needed for it can be fou
 
 ## Livestream
 
-You can also watch our live-stream on YouTube [here.](https://www.youtube.com/channel/UCZmcd4cQ2H_ELWAuUdOMgRQ/live)
+You can also watch our live stream on YouTube [here.](https://www.youtube.com/channel/UCZmcd4cQ2H_ELWAuUdOMgRQ/live)
 
 ## Contributing
 
-If you are considering to contribute to the project, make sure you have read the [Contributing guidelines](https://github.com/xspanger3770/GlobalQuake/blob/main/CONTRIBUTING.md)
+If you are considering contributing to the project, make sure you have read the [Contributing guidelines](https://github.com/xspanger3770/GlobalQuake/blob/main/CONTRIBUTING.md)
 
 ## Project Licensing
 
